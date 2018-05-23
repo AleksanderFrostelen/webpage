@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Min hobby</title>
+
+  <style>
+    body {
+      background-color: rgb(203, 223, 216);
+    }
+
+    h1 {
+      font-family: 'Barlow', sans-serif;
+      text-align: center;
+      color: rgb(3, 3, 3);
+    }
+
+    h2 {
+      font-family: 'Barlow', sans-serif;
+      text-align: center;
+      color: rgb(3, 3, 3);
+    }
+    span {
+      font-family: 'Barlow', sans-serif;
+            text-align: center;
+            color: rgb(3, 3, 3);
+            font-size: 2rem;
+            font-style: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+  <span onclick="openNav()">MENU</span>
+  <link rel="stylesheet" href="Webbpage_v2.css">
+  <script src="Webbpage_v2.js"></script>
+  <script src="jquery-3.2.1.js"></script>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="About.html">Info</a>
+    <a href="Services.html">Tjänster</a>
+    <a href="Hobby.html">Min hobby</a>
+    <a href="mailto:send2simplex@gmail.com">Kontakta mig</a>
+
+
+
+  </div>
+
+ 
+
+  <h1>Det här gör jag på min fritid</h1>
+
+  <h2>Här lägger jag upp bilder jag tar på min fritid när jag behöver inspiration</h2>
+  <center>
+    <input type="radio" onclick="filterSelection('alla')" name="category"> Visa alla </center>
+  <center>
+    <input type="radio" onclick="filterSelection('insekter')" name="category"> Insekter </center>
+    <center>
+      <input type="radio" onclick="filterSelection('natur')" name="category"> Natur </center>
+  <center>
+    <input type="radio" onclick="filterSelection('djur')" name="category"> Djur </center>
+
+
+  <div class="row">
+    <div class="column insekter">
+      <div class="content">
+        <img src="ant.jpg" alt="Ant" style="width:100%">
+      </div>
+    </div>
+    <div class="column insekter">
+      <div class="content">
+        <img src="bee.jpg" alt="Bee" style="width:100%">
+      </div>
+    </div>
+    <div class="column natur">
+      <div class="content">
+        <img src="flower.jpg" alt="Flower" style="width:100%">
+      </div>
+    </div>
+    <div class="column natur">
+      <div class="content">
+        <img src="drop.jpg" alt="Drop" style="width:100%">
+      </div>
+    </div>
+    <div class="column djur">
+      <div class="content">
+        <img src="duck.jpg" alt="Duck" style="width:100%">
+      </div>
+    </div>
+    <div class="column djur">
+      <div class="content">
+        <img src="cat.jpg" alt="Cat" style="width:100%">
+      </div>
+    </div>
+    <div class="column djur">
+      <div class="content">
+        <img src="lemur2.jpg" alt="Lemur" style="width:100%">
+      </div>
+    </div>
+    <div class="column djur">
+      <div class="content">
+        <img src="peacock.jpg" alt="Peacock" style="width:100%">
+      </div>
+    </div>
+    <div class="column djur">
+      <div class="content">
+        <img src="viper.jpg" alt="Viper" style="width:100%">
+      </div>
+    </div>
+    <div class="column djur">
+      <div class="content">
+        <img src="dog.jpg" alt="Dog" style="width:100%">
+      </div>
+    </div>
+    <div class="column djur">
+      <div class="content">
+        <img src="duck2.jpg" alt="Duck" style="width:100%">
+      </div>
+    </div>
+    <div class="column djur">
+      <div class="content">
+        <img src="rooster.jpg" alt="Rooster" style="width:100%">
+      </div>
+    </div>
+    <div class="column djur">
+      <div class="content">
+        <img src="lemur.jpg" alt="Lemur" style="width:100%">
+      </div>
+    </div>
+    <div class="column djur">
+      <div class="content">
+        <img src="chamo.jpg" alt="Chamo" style="width:100%">
+      </div>
+    </div>
+    <div class="column insekter">
+      <div class="content">
+        <img src="butter.jpg" alt="Butterfly" style="width:100%">
+      </div>
+    </div>
+    <div class="column insekter">
+      <div class="content">
+        <img src="butter2.jpg" alt="Butterfly" style="width:100%">
+      </div>
+    </div>
+    <div class="column insekter">
+      <div class="content">
+        <img src="butter4.jpg" alt="Butterfly" style="width:100%">
+      </div>
+    </div>
+    <div class="column natur">
+      <div class="content">
+        <img src="flower2.jpg" alt="Flower" style="width:100%">
+      </div>
+    </div>
+    <div class="column natur">
+      <div class="content">
+        <img src="flower3.jpg" alt="Flower" style="width:100%">
+      </div>
+    </div>
+    <div class="column natur">
+      <div class="content">
+        <img src="flower4.jpg" alt="Flower" style="width:100%">
+      </div>
+    </div>
+    <div class="column natur">
+      <div class="content">
+        <img src="flower5.jpg" alt="Flower" style="width:100%">
+      </div>
+    </div>
+    <div class="column natur">
+      <div class="content">
+        <img src="flower6.jpg" alt="Flower" style="width:100%">
+      </div>
+    </div>
+    <div class="column natur">
+      <div class="content">
+        <img src="flower2.jpg" alt="Flower" style="width:100%">
+      </div>
+    </div>
+    <div class="column insekter">
+      <div class="content">
+        <img src="atlas.jpg" alt="Atlas" style="width:100%">
+      </div>
+    </div>
+    <div class="column natur">
+      <div class="content">
+        <img src="bush.jpg" alt="Bush" style="width:100%">
+      </div>
+    </div>
+    <div class="column natur">
+      <div class="content">
+        <img src="drop2.jpg" alt="Drop" style="width:100%">
+      </div>
+    </div>
+    <div class="column insekter">
+      <div class="content">
+        <img src="larve.jpg" alt="Larve" style="width:100%">
+      </div>
+    </div>
+    <div class="column insekter">
+      <div class="content">
+        <img src="bee3.jpg" alt="Bee" style="width:100%">
+      </div>
+    </div>
+  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+
+</html>
